@@ -6,3 +6,4 @@
 2. Next install [Docker-Compse](https://github.com/docker/compose)
 3. And next execute `composer install` command.
 4. And next execute `docker-compose up -d --build` command.
+5. Open http://localhost:8080 by Web Browser.
