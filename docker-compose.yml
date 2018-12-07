@@ -1,0 +1,14 @@
+version: '2'
+services:
+
+  httpd:
+    build: ./docker/nginx
+    ports:
+      - "8080:80"
+    depends_on:
+      - php
+
+  php:
+    image: php:7-fpm
+    volumes:
+      - ./:/var/src
